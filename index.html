@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styless.css">
+  <title>Menú Restaurante Italiano</title>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1>Menú Restaurante Italiano</h1>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menú</a></li>
+          <li><a href="#nosotros">Nosotros</a></li>
+        </ul>
+      </nav>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMJwu1BPGyQ27vHSQjpAogL93fJKYRAAdnPg&s" width="50px" alt="Facebook" class="round-border1"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="https://static.vecteezy.com/system/resources/thumbnails/022/257/067/small/icon-media-social-instagram-free-vector.jpg" width="50px" alt="Instagram" class="round-border1"></a>
+        <a href="https://www.twitter.com" target="_blank"><img src="https://img.freepik.com/vector-premium/vector-logotipo-aplicacion-x-twitter_798572-316.jpg" width="50px" alt="Twitter" class="round-border1"></a>
+      </div>
+      <h4>"La comida es el alma de Italia, y cada plato cuenta una historia de tradición, amor y pasión por los sabores auténticos."</h4>
+    </div>
+  </header>
+  
+  <div class="menu1">
+    <div class="menu-item active" data-menu="entradas">
+        <img src="menu.png" width="40px" alt="Entradas">
+        <span>Entradas</span>
+    </div>
+    <div class="menu-item" data-menu="platos">
+        <img src="pasta.png" width="40px" alt="Platos Principales">
+        <span>Platos Principales</span>
+    </div>
+    <div class="menu-item" data-menu="postres">
+        <img src="panna-cotta.png" width="40px" alt="Postres">
+        <span>Postres</span>
+    </div>
+    <div class="menu-item" data-menu="ensaladas">
+        <img src="ensalada.png" width="40px" alt="Ensaladas">
+        <span>Ensaladas</span>
+    </div>
+    <div class="menu-item" data-menu="vinos">
+        <img src="licor-de-limon-italiano.png" width="40px" alt="Vinos">
+        <span>Vinos</span>
+    </div>
+</div>
+<main>
+    <div class="container">
+        <div class="menu-content" id="entradas">
+            <h2>Entradas</h2>
+            <div class="dish-container">
+                <article class="dish">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2014_Bruschetta_The_Larder_Chiang_Mai.jpg/1200px-2014_Bruschetta_The_Larder_Chiang_Mai.jpg" alt="Bruschetta">
+                <h3>Bruschetta</h3>
+                <p>Pan tostado con tomate, albahaca, ajo y aceite de oliva.</p>
+                <span class="price">$8.00</span>
+                </article>
+                
+                <article class="dish">
+                <img src="https://setasdoradas.com/wp-content/uploads/2022/03/antipasto-dorado.jpeg" alt="Antipasto">
+                <h3>Antipasto</h3>
+                <p>Variedad de embutidos, quesos, aceitunas y vegetales marinados.</p>
+                <span class="price">$12.00</span>
+                </article>
+                
+                <article class="dish">
+                <img src="https://th.bing.com/th/id/OIP.KHzFaV54xTI1INdQVXIcqAHaE8?rs=1&pid=ImgDetMain" alt="Porción de Pancitos">
+                <h3>Porción de Pancitos</h3>
+                <p>Pancitos recién horneados con mantequilla de ajo.</p>
+                <span class="price">$12.00</span>
+                </article>
+                
+                <article class="dish">
+                <img src="https://www.justspices.es/media/recipe/sopa-de-tomate-sabrosa.jpg" alt="Sopa Tomate">
+                <h3>Sopa Tomate</h3>
+                <p>Sopa de tomates con un toque de crema de leche, parmesano y albahaca.</p>
+                <span class="price">$12.00</span>
+                </article>
+                
+                <article class="dish">
+                <img src="https://tofuu.getjusto.com/orioneat-local/resized2/pWJpA4MQtF7GdT5mg-300-x.webp" alt="Polpette Napolitana">
+                <h3>Polpette Napolitana</h3>
+                <p>Albóndigas con solomito 8 uds, en salsa napolitana, gratinadas, tostadas de pan en mantequilla de ajo.</p>
+                <span class="price">$12.00</span>
+                </article> 
+              </div>
+        </div>
+        <div class="menu-content" id="platos" style="display: none;" >
+            <h2>Platos Principales</h2>
+            <div class="dish-container">
+              <article class="dish">
+              <img src="https://pizzaoven.co.nz/wp-content/uploads/2020/04/pizza-margherita.jpg" alt="Pizza Margherita" >
+              <h3>Pizza Margherita</h3>
+              <p>Pizza clásica con tomate, mozzarella fresca y albahaca.</p>
+              <span class="price">$12.99</span>
+              </article>
+                
+              <article class="dish">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Espaguetis_carbonara.jpg/800px-Espaguetis_carbonara.jpg" alt="Pasta Carbonara" >
+                <h3>Pasta Carbonara</h3>
+                <p>Espaguetis con salsa cremosa de huevo, panceta y queso Pecorino.</p>
+                <span class="price">$14.50</span>
+                </article>
+                
+                <article class="dish">
+                <img src="https://comemascarnedecerdo.co/wp-content/uploads/2024/04/img-lasana-de-carne-de-cerdo-con-rodajas-de-pan-con-ajo-1536x808-1-1-1024x539.jpg" alt="lasagna" >
+                <h3>lasagna</h3>
+                <p>Es un tipo de pasta. Se suele servir en láminas superpuestas intercaladas con capas de ingredientes al gusto, más frecuentemente carne (ragú) en salsa boloñesa y bechamel.</p>
+                <span class="price">$14.50</span>
+                </article>
+                
+                <article class="dish">
+                <img src="https://www.brillante.es/wp-content/uploads/2023/11/risotto-perfecto-960x640.jpg" alt="Risotto" >
+                <h3>Risotto</h3>
+                <p>Comida tradicional italiana que se realiza añadiendo gradualmente un caldo al arroz, junto con otros ingredientes que varían según las específicas recetas de risottos.</p>
+                <span class="price">$14.50</span>
+                </article>
+                
+                <article class="dish">
+                <img src="https://veggiefestchicago.org/wp-content/uploads/2018/10/caponata-recipe.jpg" alt="Caponata" >
+                <h3>Caponata</h3>
+                <p>Guiso clásico de la cocina siciliana que se elabora principalmente con berenjenas, apio, tomates, olivas, etc., finamente cortados, cocinados en aceite de oliva y acompañado de alcaparras.</p>
+                <span class="price">$14.50</span>
+                </article>
+                </div>
+        </div>
+        <div class="menu-content" id="postres" style="display: none;">
+            <h2>Postres</h2>
+            <div class="dish-container">
+              <article class="dish">
+              <img src="https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/7f45d6f8807ebc775928651a3398dce9.png" alt="Tiramisú">
+              <h3>Tiramisú</h3>
+              <p>Postre italiano con capas de bizcocho, café, mascarpone y cacao.</p>
+              <span class="price">$6.50</span>
+              </article>
+
+              <article class="dish">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Gelato.jpg/273px-Gelato.jpg" alt="Gelato">
+              <h3>Gelato</h3>
+              <p> Postre helado Italiano, parecido y antecesor del helado.</p>
+              <span class="price">$7.50</span>
+              </article>
+
+              <article class="dish">
+              <img src="https://cdn.colombia.com/gastronomia/2015/02/16/panna-cotta-3453.jpg" alt="panna cotta">
+              <h3>panna cotta</h3>
+              <p> Postre típico de la región italiana del Piamonte, elaborado a partir de crema de leche, azúcar, queso crema y gelificantes. </p>
+              <span class="price">$7.50</span>
+              </article>
+
+              <article class="dish">
+              <img src="https://content-cocina.lecturas.com/medio/2021/10/01/paso_a_paso_para_realizar_cannoli_siciliani_con_crema_ricotta_resultado_final_65811311_1200x630.jpg" alt="cannoli">
+              <h3>cannoli</h3>
+              <p> Dulce típico de la región italiana de Sicilia, de donde es originario. Consiste en una masa enrollada en forma de tubo que dentro lleva ingredientes mezclados con queso ricota. </p>
+              <span class="price">$7.50</span>
+              </article>
+
+              <article class="dish">
+              <img src="https://estaticos-cdn.prensaiberica.es/clip/89d5d7ae-863b-480d-9c7f-c56f218d40db_16-9-discover-aspect-ratio_default_0.jpg" alt="Panettone">
+              <h3>Panettone</h3>
+              <p> Bollo hecho con una masa de tipo brioche, relleno con pasas, frutas confitadas (naranja, cidra y limón), frutos secos o chocolate. </p>
+              <span class="price">$7.50</span>
+              </article>
+            </div>
+        </div>
+        <div class="menu-content" id="ensaladas" style="display: none;">
+            <h2>Ensaladas</h2>
+            <div class="dish-container">
+              <article class="dish">
+              <img src="https://okdiario.com/img/2016/11/26/receta-de-ensalada-caprese.jpg" alt="Ensalada Caprese">
+              <h3>Ensalada Caprese</h3>
+              <p>Rodajas de tomate y mozzarella fresca, albahaca y aceite de oliva.</p>
+              <span class="price">$12.00</span>
+              </article>
+
+              <article class="dish">
+              <img src="https://estaticos-cdn.prensaiberica.es/clip/c0dcb130-f194-418b-9375-b5b7d59500ad_16-9-discover-aspect-ratio_default_0_x2418y1704.jpg" alt="Ensalada Panzanella">
+              <h3>Ensalada Panzanella</h3>
+              <p>Pan tostado, tomates, pepinos, cebolla roja, albahaca y vinagreta.</p>
+              <span class="price">$10.50</span>
+              </article>
+
+              <article class="dish">
+              <img src="https://th.bing.com/th/id/R.e7c28902b1e478ba52c666ff53b2a476?rik=cMtJbg5IsZvrlQ&riu=http%3a%2f%2fwww.minutoverde.cl%2fwp-content%2fuploads%2f2016%2f09%2fensalada-italiana-fb.jpg&ehk=w6i6leuLuIV7c2piX60dygKoPXQ6hxTp2AX08HmfXkM%3d&risl=&pid=ImgRaw&r=0" alt="Ensalada de Pasta Italiana">
+              <h3>Ensalada de Pasta Italiana</h3>
+              <p>Pasta corta, tomates cherry, mozzarella, aceitunas, albahaca y aderezo italiano.</p>
+              <span class="price">$11.00</span>
+              </article>
+
+              <article class="dish">
+              <img src="https://th.bing.com/th/id/OIP.Hl2M7n-LhV9clwjc3F7wuAHaHa?rs=1&pid=ImgDetMain" alt="Ensalada de Radicchio">
+              <h3>Ensalada de Radicchio</h3>
+              <p>Radicchio, nueces, queso gorgonzola y vinagreta balsámica.</p>
+              <span class="price">$13.50</span>
+              </article>
+
+              <article class="dish">
+              <img src="https://th.bing.com/th/id/R.19db511d5bfb5f97018c83fdf3ce9978?rik=lqSpIU94XmzPRg&riu=http%3a%2f%2fmirinconsaludable.weebly.com%2fuploads%2f7%2f9%2f7%2f1%2f79718668%2fensaladadehinojonaranja_orig.jpg&ehk=h53CbWGRAjzLsSPAwHTA%2baEyUw%2fFrCEDlANRlN96gsY%3d&risl=&pid=ImgRaw&r=0" alt="Ensalada de Hinojo y Naranja">
+              <h3>Ensalada de Hinojo y Naranja</h3>
+              <p>Hinojo en rodajas finas, naranjas, aceitunas negras y vinagreta de limón.</p>
+              <span class="price">$12.50</span>
+              </article>
+            </div>
+            </div>
+        <div class="menu-content" id="vinos" style="display: none;">
+            <h2>Vinos</h2>
+            <div class="dish-container">
+              <article class="dish">
+                <img src="https://th.bing.com/th/id/OIP.1e6NYxeXhZQ7vaImUQyMaAHaI4?rs=1&pid=ImgDetMain" alt="Chianti Classico">
+                <h3>Chianti Classico</h3>
+                <p>Vino tinto seco con notas de cereza y especias. Ideal para acompañar carnes rojas y pastas.</p>
+                <span class="price">$25.00</span>
+            </article>
+
+            <article class="dish">
+              <img src="https://lacavadepinero.es/cms/uploads/Blog_Prosecco.png" alt="Prosecco">
+              <h3>Prosecco</h3>
+              <p>Vino espumoso fresco y afrutado. Perfecto como aperitivo o para acompañar postres.</p>
+              <span class="price">$18.00</span>
+            </article>
+
+           <article class="dish">
+            <img src="https://th.bing.com/th/id/OIP.hpo8GYN_SYaasjSXRadwWwHaHa?rs=1&pid=ImgDetMain" alt="Pinot Grigio">
+            <h3>Pinot Grigio</h3>
+            <p>Vino blanco seco y ligero con notas cítricas y florales. Ideal para pescados y ensaladas.</p>
+            <span class="price">$20.00</span>
+           </article>
+
+          <article class="dish">
+          <img src="https://chezcarlita.com/wp-content/uploads/2023/05/portada-chezcarlita-web-1080-%C3%97-810-px-1.png" alt="Barolo">
+          <h3>Barolo</h3>
+          <p>Vino tinto robusto y complejo con notas de frutos rojos, tabaco y cuero. Ideal para carnes de caza y quesos fuertes.</p>
+          <span class="price">$40.00</span>
+         </article>
+
+         <article class="dish">
+        <img src="https://th.bing.com/th/id/R.0e4984f954f6b231da0ed3d0bd7a7f5d?rik=WuPEFd8Qr4dRTA&riu=http%3a%2f%2faldentebilbao.com%2fwp-content%2fuploads%2f2014%2f12%2f50_Moscato-Dasti-vino.jpg&ehk=5u1DaLf%2f8fP1pabPGNFXfj%2bxhd04e%2f9rCxztNbJ4wzE%3d&risl=&pid=ImgRaw&r=0" alt="Moscato d'Asti">
+        <h3>Moscato d'Asti</h3>
+        <p>Vino blanco dulce y espumoso con aromas de melocotón y flores. Perfecto para postres y frutas.</p>
+        <span class="price">$22.00</span>
+        </article>
+                </div>
+        </div>
+    </div>
+</main>
+<script src="script.js"></script>
+  </main>
+
+  <footer id="nosotros">
+    <div class="footer-container">
+      <h2>Sobre Nosotros</h2>
+      <p>En nuestro restaurante, nos apasiona ofrecerte la mejor comida italiana con ingredientes frescos y auténticos. ¡Ven y disfruta de la auténtica cocina italiana!</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+

@@ -1,0 +1,164 @@
+ 
+ /* Reset de márgenes y padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background-color: #f4f4f4;
+    }
+    
+    .menu1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    
+    .menu-item i {
+      font-size: 36px;
+      color: #888;
+    }
+    
+    .menu-item span {
+      margin-top: 5px;
+      color: #888;
+    }
+    
+    .menu-item.active i, .menu-item.active span {
+      color: red;
+    }
+
+    /* Header */
+    header {
+      background-image: url('https://cdn7.kiwilimon.com/articuloimagen/30111/28208.jpg'); /* Imagen de fondo */
+      background-size: cover;  /* Asegura que la imagen cubra todo el área del encabezado */
+      background-position: center;  /* Centra la imagen */
+      color: #fff;
+      padding: 5rem 8rem; /* Ajuste de padding para que el texto no quede pegado */
+      position: relative;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .header-container {
+      text-align: center;
+      color: whitesmoke;
+      font: 30px sans-serif;
+      width: 100%;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav a {
+      color: #cc1515;
+      text-decoration: none;
+    }
+
+    .social-icons {
+      text-align: right;
+    }
+
+    .round-border1 {
+      border-radius: 15px;
+      border: 5px solid white;
+    }
+
+
+    /* Estilo para los artículos */
+.dish-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Para hacerlo responsivo */
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 20px; /* Espacio entre los platos */
+}
+
+.dish {
+  width: 300px; /* Ancho máximo para los platos */
+  margin: 10px;
+  text-align: center;
+  background-color: #333; /* Fondo más claro para los platos */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombreado sutil */
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.dish:hover {
+  transform: translateY(-5px); /* Elevar un poco al pasar el mouse */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Sombreado más intenso al pasar el mouse */
+}
+
+.dish img {
+  width: 200px;
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.dish h3 {
+  color: #fff; /* Texto blanco para los títulos */
+  margin-bottom: 5px;
+}
+
+.dish p {
+  color: #ccc; /* Texto gris claro para la descripción */
+  margin-bottom: 10px;
+}
+
+.dish .price {
+  color: #ffcc00; /* Color amarillo para el precio */
+  font-weight: bold;
+}
+
+    /* Estilo para el footer */
+    footer {
+      background-image: url('https://www.bekiacocina.com/images/articulos/portada/87000/87147.jpg');
+      background-size: cover;
+      color: rgb(0, 0, 0);
+      padding: 5rem 4rem;
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .footer-container {
+      width: 100%;
+      text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 30px;
+    }
+
+  
+  
+    
