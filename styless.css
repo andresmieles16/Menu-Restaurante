@@ -13,7 +13,10 @@
     }
 
     h2 {
-      color: #ffffff;
+      background-image: url('https://img.freepik.com/fotos-premium/bandera-italia-ilustracion-3d-ondulacion-bandera-italiana_2227-632.jpg'); /* Imagen de fondo */
+      background-size: cover;  /* Asegura que la imagen cubra todo el área del encabezado */
+      background-position: center;  /* Centra la imagen */
+      color: black;
       font-size: 40px;
       list-style: none;
       display: flex;
@@ -126,6 +129,9 @@
 
     /* Estilo para los artículos */
 .dish-container {
+  background-image: url('https://img.freepik.com/vector-premium/bandera-italiana-pintada-pincel_3442-986.jpg'); /* Imagen de fondo */
+  background-size: cover;  /* Asegura que la imagen cubra todo el área del encabezado */
+  background-position: center;  /* Centra la imagen */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; /* Para hacerlo responsivo */
